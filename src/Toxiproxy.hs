@@ -27,11 +27,16 @@ module Toxiproxy
     , ProxyName(..)
     , ToxicName(..)
     , Host
+    , Scheme(..)
     , toxiproxyUrl
     , withDisabled
+    , withDisabled'
     , withToxic
+    , withToxic'
     , withProxy
+    , withProxy'
     , run
+    , run'
     ) where
 
 import Servant.API hiding (Stream)
