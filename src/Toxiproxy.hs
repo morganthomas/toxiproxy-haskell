@@ -17,6 +17,7 @@ module Toxiproxy
     , getToxic
     , updateToxic
     , deleteToxic
+    , BaseUrl(..)
     , Proxy(..)
     , Toxic(..)
     , Populate(..)
